@@ -35,16 +35,11 @@ public class XMLComponent implements XMLDocument {
 
 	@Override
 	public void print() {
-		if (!components.isEmpty()) {
-			Iterator<XMLDocument> iter = components.iterator();
-			System.out.println("<" + this + ">");
-			while (iter.hasNext()) {
-				iter.next().print();
-			}
-			System.out.println("<" + this + "/>");
-		} else {
-			System.out.println("<" + this + ">" + "<" + this + "/>");
+		System.out.println("<" + this + ">");
+		for (XMLDocument doc : components) {
+			doc.print();
 		}
+		System.out.println("<" + this + "/>");
 	}
 
 	@Override

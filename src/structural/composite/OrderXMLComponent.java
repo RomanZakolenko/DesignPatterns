@@ -43,7 +43,7 @@ public class OrderXMLComponent implements XMLDocument {
 
 	@Override
 	public void print() {
-
+		System.out.println("<" + this.name + ">" + this.content + "<" + this.name + "/>");
 	}
 
 }
