@@ -8,3 +8,4 @@ public class BrickWallBuilder implements WallBuilder {
 	}
  
 }
+ 
