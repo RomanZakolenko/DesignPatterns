@@ -2,6 +2,6 @@ package structural.decorator;
 
 public class PassengerCar extends Car {
 	public PassengerCar() {
-		this.setType("passenger");
+		this.setType("Passenger car");
 	}
 }
