@@ -8,6 +8,6 @@ public class BodyPart {
 	}
 	
 	public void action(){
-		brain.listenAction();
+		brain.listenAction(this);
 	}
 }

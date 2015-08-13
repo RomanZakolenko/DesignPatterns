@@ -11,4 +11,8 @@ public class Ear extends BodyPart {
 		this.sound = sound;
 		action();
 	}
+	
+	public String getSound(){
+		return sound;
+	}
 }
