@@ -15,7 +15,7 @@ public class Director {
 		builder.createLaptop();
 		builder.setMonitorResolution();
 		builder.setMemory();
-		builder.setHDD();
+		builder.setHdd();
 		builder.setProcessor();
 		builder.setBattery();
 	}

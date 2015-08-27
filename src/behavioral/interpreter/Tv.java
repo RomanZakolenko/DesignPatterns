@@ -1,9 +1,9 @@
 package behavioral.interpreter;
 
-public class TV extends Goods {
+public class Tv extends Goods {
 
 	@Override
-	public String iterpret(PriceContext context) {
+	public String interpret(PriceContext context) {
 		return context.getPrice("TV");
 	}
 

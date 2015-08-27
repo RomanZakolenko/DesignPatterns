@@ -18,7 +18,7 @@ public class OfficeLaptopBuilder extends LaptopBuilder {
 	}
 
 	@Override
-	public void setHDD() {
+	public void setHdd() {
 		laptop.setHDD("500 GB");
 	}
 

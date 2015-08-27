@@ -18,7 +18,7 @@ public class GamingLaptopBuilder extends LaptopBuilder {
 	}
 
 	@Override
-	public void setHDD() {
+	public void setHdd() {
 		laptop.setHDD("2 TB");
 	}
 

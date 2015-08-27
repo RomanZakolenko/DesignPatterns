@@ -17,7 +17,7 @@ public abstract class LaptopBuilder {
 
 	public abstract void setMemory();
 
-	public abstract void setHDD();
+	public abstract void setHdd();
 
 	public abstract void setBattery();
 }

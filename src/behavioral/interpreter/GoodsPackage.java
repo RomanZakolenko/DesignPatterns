@@ -11,10 +11,10 @@ public class GoodsPackage extends Goods {
 	}
 
 	@Override
-	public String iterpret(PriceContext context) {
+	public String interpret(PriceContext context) {
 		double res = 0;
 		for (Goods g : goods) {
-			res += Double.parseDouble(g.iterpret(context));
+			res += Double.parseDouble(g.interpret(context));
 		}
 		return Double.toString(res);
 	}

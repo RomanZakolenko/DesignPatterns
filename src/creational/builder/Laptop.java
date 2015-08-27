@@ -1,56 +1,56 @@
 package creational.builder;
 
 public class Laptop {
-	private String MonitorResolution;
-	private String Processor;
-	private String Memory;
-	private String HDD;
-	private String Battery;
+	private String monitorResolution;
+	private String processor;
+	private String memory;
+	private String hdd;
+	private String battery;
 
 	public String getMonitorResolution() {
-		return new String(MonitorResolution);
+		return new String(monitorResolution);
 	}
 
 	public void setMonitorResolution(String monitorResolution) {
-		MonitorResolution = new String(monitorResolution);
+		monitorResolution = new String(monitorResolution);
 	}
 
 	public String getProcessor() {
-		return new String(Processor);
+		return new String(processor);
 	}
 
 	public void setProcessor(String processor) {
-		Processor = new String(processor);
+		processor = new String(processor);
 	}
 
 	public String getMemory() {
-		return new String(Memory);
+		return new String(memory);
 	}
 
 	public void setMemory(String memory) {
-		Memory = new String(memory);
+		memory = new String(memory);
 	}
 
-	public String getHDD() {
-		return new String(HDD);
+	public String getHdd() {
+		return new String(hdd);
 	}
 
 	public void setHDD(String hDD) {
-		HDD = new String(hDD);
+		hdd = new String(hDD);
 	}
 
 	public String getBattery() {
-		return new String(Battery);
+		return new String(battery);
 	}
 
 	public void setBattery(String battery) {
-		Battery = new String(battery);
+		battery = new String(battery);
 	}
 
 	@Override
 	public String toString() {
-		return "Laptop [MonitorResolution=" + MonitorResolution + ", Processor=" + Processor + ", Memory=" + Memory
-				+ ", HDD=" + HDD + ", Battery=" + Battery + "]";
+		return "Laptop [MonitorResolution=" + monitorResolution + ", Processor=" + processor + ", Memory=" + memory
+				+ ", HDD=" + hdd + ", Battery=" + battery + "]";
 	}
 
 }

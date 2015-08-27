@@ -1,5 +1,5 @@
 package behavioral.interpreter;
 
 public abstract class Goods {
-	public abstract String iterpret(PriceContext context);
+	public abstract String interpret(PriceContext context);
 }
